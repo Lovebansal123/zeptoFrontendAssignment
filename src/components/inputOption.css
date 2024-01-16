@@ -1,0 +1,25 @@
+.inputOptionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 8px;
+    padding: 15px;
+    margin: 5px;
+    background: white;
+    transition: all 0.5s ease;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.inputOptionDiv:hover{
+     background: #d5d5d5;
+}
+.inputOptionDiv img{
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+}
+.inputOptionDiv span{
+    margin: 0 15px;
+}
