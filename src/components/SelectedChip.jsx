@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './selectedChip.css'
 export default function SelectedChip(props) {
   const myStyle = {

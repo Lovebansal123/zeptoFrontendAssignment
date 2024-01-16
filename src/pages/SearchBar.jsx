@@ -31,7 +31,7 @@ export default function SearchBar() {
       return () => {
         document.removeEventListener('keydown', handleKeyDown);
       };
-    }, [inputValue, selectedChips, backspaceCount]);
+    });
     const handleRemoveChip=(itemToRemove)=>{
         const updatedItems = selectedChips.filter((item)=>item.id!==itemToRemove.id);
         setSelectedChips(updatedItems);
